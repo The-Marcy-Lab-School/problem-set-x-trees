@@ -1,3 +1,10 @@
+from typing import List
+
+def binary_tree(root):
+    return [root, [], []]
+    
+print(binary_tree(['A',[],[]]))
+    
 def BinaryTreeList():
     pass
 
