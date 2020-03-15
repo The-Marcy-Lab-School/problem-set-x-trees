@@ -5,12 +5,15 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What are the properties of a tree?**
+
 A tree is not unlike a tree in nature, except it is upside down. With it's root located at the top and branches called edges that reach down towards new paths containing nodes also connected by edges.
 
 **2. What is the definition of a tree data structure? Define it in two ways: (1) a description of edges, nodes, and paths, and (2) as a recursive data structure??**
+
 A tree data structure is defined as a group of interconnected nodes beginning with the node at the top branching down to different paths containing nodes connected by edges. It can also be defined as a recursive data structure due to its inception like nature. Each node contains a connection to the next node which isn't far off from how recursive analogies like searching for an item in a box with boxes within boxes work.
 
 **3. What is a binary tree and how does it differ from a regular tree?**
+
 A binary tree is the same as a regular tree conceptually. However the difference lies in its structure, as no one node has more than two outgoing edges.
 
 ### Coding Exercises
