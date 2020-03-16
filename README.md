@@ -5,11 +5,12 @@ Respond to short response questions in clear, concise sentences directly within 
 
 ### Short Response Questions
 **1. What are the properties of a tree?**
-
+  The properties of trees include a root, leafs, edges, children, siblings, parents, levels, height and paths.
 **2. What is the definition of a tree data structure? Define it in two ways: (1) a description of edges, nodes, and paths, and (2) as a recursive data structure??**
-
+  A tree data structure is made from of nodes, where the first node is known as the root that has at least one outgoing edge that is connected to another node. Where this node can also have an outgoing edge connecting to another edge and so on. A path is a set of "directions" that go through the tree from the root to the chosen node.
+  The definition of a recursive tree data structure comes from a binary tree. The tree can either be empty (no nodes) or one node (root) with two outgoing edges connecting with two nodes (left and right child) that happen to be other binary trees.
 **3. What is a binary tree and how does it differ from a regular tree?**
-
+  A binary tree is when a node can only have to children. Meaning everynode can only have two outgoing edges connecting with two child nodes (left child and right child)
 ### Coding Exercises
 Answer the following questions in `exercises.py`. Run unit test with the `pytest` command. Ensure all tests are passing before submitting this problem set.
 
