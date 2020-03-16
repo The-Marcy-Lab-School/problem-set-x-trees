@@ -6,9 +6,15 @@ Respond to short response questions in clear, concise sentences directly within 
 ### Short Response Questions
 **1. What are the properties of a tree?**
 
+A tree is a nonlinear data structure made up of nodes and edges. It has a root node that could have a collection of subtrees under it with each node being a root for another subtree.
+
 **2. What is the definition of a tree data structure? Define it in two ways: (1) a description of edges, nodes, and paths, and (2) as a recursive data structure??**
 
+The definition of a tree data structure mean trees are structured in layers with more general things near the top and the more specific things near the bottom. A tree consists of a set of nodes and a set of edges that connected pairs of nodes. A unique path traverses from the root to each node. A recursive data structure you can say a tree is either empty or consists of a root and zero or more subtress. The root of each subtress is connected to the root of the parent tree by an edge.
+
 **3. What is a binary tree and how does it differ from a regular tree?**
+
+ A binary tree is a balanced tree that has about the same number of nodes in the left and right sub trees of the root. Each subtree has a maximum of two nodes compared to a normal tree which can have any amount.
 
 ### Coding Exercises
 Answer the following questions in `exercises.py`. Run unit test with the `pytest` command. Ensure all tests are passing before submitting this problem set.
