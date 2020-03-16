@@ -10,9 +10,11 @@ Respond to short response questions in clear, concise sentences directly within 
   --> leaf2 --> leaf3 --> desiredLeaf would traverse through the tree until desiredLeaf is found. If a path was specified to that node then it's
   time complexity should just be O(n), referencing the height or length of the tree up until that leaf node. Furthermore, a tree contains a root node, its 
   branches, and leaves. If you wanted to traverse through the entire tree. You could take a number of paths that lead from the root node all
-  the way down to any of it's leaves, easily moving through the structure. We can not only move through the tree but move aroudnd the leaves, themselves.
+  the way down to any of it's leaves, easily moving through the structure. We can not only move through the tree but move around the leaves, themselves.
   In other words, if I had a path and wanted to move around node or subtree to different place within the tree without affecting the 
-  lower levers of the tree, I could. Imagine trying to move a folder from you documents folder to you desktop.
+  lower levers of the tree, I could. A good way to think of this is like trying to move a folder from your documents folder to you desktop. 
+  Your documents folder has other folders or subdirecties inside of it, but moving that documents folder to the desktop will change the 
+  path to that root node (the documents folder).
 
 **2. What is the definition of a tree data structure? Define it in two ways: (1) a description of edges, nodes, and paths, and (2) as a recursive data structure??**
 
@@ -23,14 +25,13 @@ Respond to short response questions in clear, concise sentences directly within 
 
 **3. What is a binary tree and how does it differ from a regular tree?**
 
-  Generally, a tree is a structure that contains a set of nodes and pointers caleld edges to connect to the child nodes. There's a number of differences between 
+  Generally, a tree is a structure that contains a set of nodes and pointers called edges to connect to the child nodes. There's a number of differences between 
   the two that woud warrant them being different data structures. First, is the amount of child node that each leaf has an edge pointing to. A tree is a tree 
   that the nodes can have any amount of children.	In contrast to in binary trees, which each node can have at most two nodes. Next, is that in a binary tree
   there are only two subtree's, the left and right subtree. While, a normal tree can hold any number of children or none at all.
 
 ### Coding Exercises
 Answer the following questions in `exercises.py`. Run unit test with the `pytest` command. Ensure all tests are passing before submitting this problem set.
-
 1. **_A List of List:_** Implement a binary tree as a list of lists. Name your function `BinaryTreeList`. Be sure to implement `insert_right` and `insert_left`.
 
 2. **Implement a Binary True:** Implement a binary tree class using nodes and references. Instances of `BinaryTree` should have the following methods available to them:
