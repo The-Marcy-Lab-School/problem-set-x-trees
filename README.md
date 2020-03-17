@@ -15,7 +15,7 @@ Answer the following questions in `exercises.py`. Run unit test with the `pytest
 
 1. **_A List of List:_** Implement a binary tree as a list of lists. Name your function `BinaryTreeList`. Be sure to implement `insert_right` and `insert_left`.
 
-2. **Implement a Binary True:** Implement a binary tree class using nodes and references. Instances of `BinaryTree` should have the following methods available to them:
+2. **Implement a Binary Tr3e:** Implement a binary tree class using nodes and references. Instances of `BinaryTree` should have the following methods available to them:
    - `insert_left`
    - `insert_right`
    - `get_right_child`
