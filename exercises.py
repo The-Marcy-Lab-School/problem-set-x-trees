@@ -1,3 +1,6 @@
+def binary_tree_list(root: any) -> list:
+    return [root, [], []]
+
 def insert_left(root: list, value: any) -> list:
         t = root.pop(1)
         if t == []:
@@ -14,9 +17,6 @@ def insert_right(root: list, value: any) -> list:
     else:
         root.insert(2, [value, [], t])
     return root
-
-def BinaryTreeList(root: any) -> list:
-    return [root, [], []]
 
 class BinaryTree:
     def __init__(self, root):
@@ -71,11 +71,11 @@ def inorder(tree):
         inorder(tree.get_right_child())
 
 def is_unival_tree(tree):
-    values = []
+    values = set()
 
     def duplicates(root):
             if root:
-                values.append(root.root)
+                values.add(root.root)
                 duplicates(root.get_left_child().get_root_val())
                 duplicates(root.get_right_child().get_root_val())
     duplicates(tree)
@@ -89,7 +89,9 @@ def invert(tree):
          tree.rightChild = left
          invert(tree.leftChild)
          invert(tree.rightChild)
-    return tree
+        return tree
+    else:
+        return None
 
 def second_minimum_node(tree):
     values = []
@@ -103,6 +105,7 @@ def second_minimum_node(tree):
     print(values)
 
 
+'''
 tree = BinaryTree(4)
 tree.leftChild = BinaryTree(2)
 tree.rightChild = BinaryTree(4)
@@ -110,3 +113,4 @@ tree.leftChild.leftChild = BinaryTree(3)
 tree.leftChild.rightChild = BinaryTree(1)
 
 second_minimum_node(tree)
+'''
