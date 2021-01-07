@@ -11,7 +11,7 @@ Respond to short response questions in clear, concise sentences directly within 
 **3. What is a binary tree and how does it differ from a regular tree?**
 
 ### Coding Exercises
-Answer the following questions in `exercises.py`. Run unit test with the `pytest` command. Ensure all tests are passing before submitting this problem set.
+Answer the following questions in `exercises.py` or `exercises.js`. Ensure all tests are passing before submitting this problem set.
 
 1. **_A List of List:_** Implement a binary tree as a list of lists. Name your function `BinaryTreeList`. Be sure to implement `insert_right` and `insert_left`.
 
@@ -24,7 +24,7 @@ Answer the following questions in `exercises.py`. Run unit test with the `pytest
    - `get_root_val`
 
 3. **Traversals:** Implement `preorder`, `postorder`, and `inorder` traversal. These functions should take a tree as an parameter and print each node's value.
-   
+
 4. **Univalued Binary Tree:** A binary tree is univalued if every node in the tree has the same value. Write a function `is_unival_tree`, that takes a Tree as a parameter and returns true if and only if the given tree is univalued.
 
 5. **Invert a Binary Tree:** Invert a binary tree.
@@ -61,7 +61,7 @@ Answer the following questions in `exercises.py`. Run unit test with the `pytest
 
         Example 1:
         ```
-        Input: 
+        Input:
             2
           / \
           2   5
@@ -71,15 +71,14 @@ Answer the following questions in `exercises.py`. Run unit test with the `pytest
 
         Output: 5
         Explanation: The smallest value is 2, the second smallest value is 5.
-        
+
 
         Example 2:
         ```
-        Input: 
+        Input:
             2
           / \
           2   2
         ```
         Output: -1
         Explanation: The smallest value is 2, but there isn't any second smallest value.
-        
