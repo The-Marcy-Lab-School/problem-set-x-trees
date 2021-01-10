@@ -1,30 +1,53 @@
-function BinaryTreeList(){
+class BinaryTree{
+  constructor(value){
+
+  }
+
+  getRootValue(){
+  }
+  
+  setRootVal(value){
+  }
+
+  insertLeft(value){
+
+  }
+
+  insertRight(value){
+
+  }
+
+  getLeftChildValue(){
+  }
+
+  getRightChildValue(){
+  }
+}
+
+function preorder(node){
 
 }
 
+function postorder(node){
 
-class BinaryTree{
-  preorder(node){
+}
 
-  }
+function inorder(node){
 
-  postorder(){
+}
 
-  }
+function isUnivalTree(node){
 
-  inorder(){
+}
 
-  }
+function invert(node){
 
-  isUnivalTree(){
+}
 
-  }
+function secondMinimumNode(node){
 
-  invert(){
+}
 
-  }
-
-  secondMinimumNode(){
-
-  }
+module.exports = {
+  BinaryTree, preorder, postorder, inorder, isUnivalTree, invert, secondMinimumNode
 }

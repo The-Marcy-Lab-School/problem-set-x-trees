@@ -1,6 +1,3 @@
-def BinaryTreeList():
-    pass
-
 class BinaryTree:
     pass
 
