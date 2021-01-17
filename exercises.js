@@ -6,7 +6,7 @@ class BinaryTree{
   getRootValue(){
   }
   
-  setRootVal(value){
+  setRootValue(value){
   }
 
   insertLeft(value){
