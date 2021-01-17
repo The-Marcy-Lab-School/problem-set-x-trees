@@ -12,7 +12,7 @@ describe('Binary Tree', () => {
     it('can set its value', () => {
       let tree = new BinaryTree(4);
       expect(tree.getRootValue()).toBe(4);
-      tree.setRootVal(2);
+      tree.setRootValue(2);
       expect(tree.getRootValue()).toBe(2);
     })
 
