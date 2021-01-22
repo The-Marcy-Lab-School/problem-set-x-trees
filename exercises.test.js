@@ -110,20 +110,20 @@ describe('Univalued Binary Tree', () => {
 describe('Invert', () => {
   it("correctly inverts binary tree", () => {
     let tree = new BinaryTree(4);
-    let left = tree.insertLeft(2);
-    left.insertLeft(1);
-    left.insertRight(3);
-    let right = tree.insertRight(7);
-    right.insertLeft(6);
-    right.insertRight(9);
+    let oldLeft = tree.insertLeft(2);
+    oldLeft.insertLeft(1);
+    oldLeft.insertRight(3);
+    let oldRight = tree.insertRight(7);
+    oldRight.insertLeft(6);
+    oldRight.insertRight(9);
     invert(tree)
     expect(tree.getRootValue()).toBe(4);
     expect(tree.getLeftChildValue()).toBe(7);
     expect(tree.getRightChildValue()).toBe(2);
-    expect(tree.left.getLeftChildValue()).toBe(9);
-    expect(tree.left.getRightChildValue()).toBe(6);
-    expect(tree.right.getLeftChildValue()).toBe(3);
-    expect(tree.right.getRightChildValue()).toBe(1);
+    expect(oldRight.getLeftChildValue()).toBe(9);
+    expect(oldRight.getRightChildValue()).toBe(6);
+    expect(oldLeft.getLeftChildValue()).toBe(3);
+    expect(oldLeft.getRightChildValue()).toBe(1);
   })
 })
 
