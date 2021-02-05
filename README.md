@@ -8,6 +8,7 @@ Complete code challenges in `exercises.js` or `exercises.py`.
 Use Test Driven Development to guide you. For JavaScript, run `npm install` to download dependencies. Run `npm test` to run tests locally. For Python, run `pytest`. Ensure all tests are passing before submitting this problem set.
 
 ### Short Response Questions
+
 **1. What are the properties of a tree?**
 
 **2. What is the definition of a tree data structure? Define it in two ways: (1) a description of edges, nodes, and paths, and (2) as a recursive data structure??**
