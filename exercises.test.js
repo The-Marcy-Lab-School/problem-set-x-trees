@@ -43,7 +43,8 @@ describe('Binary Tree', () => {
     })
 })
 
-describe('Preorder traversal', () => {
+// remove the .skip in order to log the order
+describe.skip('Preorder traversal', () => {
   it("prints the correct output", () => {
     let tree = new BinaryTree(4);
     let left = tree.insertLeft(2);
@@ -57,7 +58,8 @@ describe('Preorder traversal', () => {
   })
 })
 
-describe('Postorder traversal', () => {
+// remove the .skip in order to log the order
+describe.skip('Postorder traversal', () => {
   it("prints the correct output", () => {
     let tree = new BinaryTree(4);
     let left = tree.insertLeft(2);
@@ -71,7 +73,8 @@ describe('Postorder traversal', () => {
   })
 })
 
-describe('Inorder traversal', () => {
+// remove the .skip in order to log the order
+describe.skip('Inorder traversal', () => {
   it("prints the correct output", () => {
     let tree = new BinaryTree(4);
     let left = tree.insertLeft(2);

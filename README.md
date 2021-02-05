@@ -1,7 +1,11 @@
-# Problem Set 11.5 - Introduction to Trees
+# Problem Set: Trees
 
 ## Directions
 Respond to short response questions in clear, concise sentences directly within this file. Use markdown to ensure that your answers are formatted correctly.
+
+Complete code challenges in `exercises.js` or `exercises.py`. 
+
+Use Test Driven Development to guide you. For JavaScript, run `npm install` to download dependencies. Run `npm test` to run tests locally. For Python, run `pytest`. Ensure all tests are passing before submitting this problem set.
 
 ### Short Response Questions
 **1. What are the properties of a tree?**
@@ -11,7 +15,6 @@ Respond to short response questions in clear, concise sentences directly within 
 **3. What is a binary tree and how does it differ from a regular tree?**
 
 ### Coding Exercises
-Answer the following questions in `exercises.py` or `exercises.js`. Ensure all tests are passing before submitting this problem set.
 
 1. **Implement a Binary Tree:** Implement a binary tree class using nodes and references. Instances of `BinaryTree` should have the following methods available to them:
    - `get_root_val`

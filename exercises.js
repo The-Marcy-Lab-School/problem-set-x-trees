@@ -4,6 +4,7 @@ class BinaryTree{
   }
 
   getRootValue(){
+
   }
   
   setRootValue(value){
@@ -18,9 +19,11 @@ class BinaryTree{
   }
 
   getLeftChildValue(){
+
   }
 
   getRightChildValue(){
+    
   }
 }
 
