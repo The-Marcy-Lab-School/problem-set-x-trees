@@ -17,7 +17,7 @@ Use Test Driven Development to guide you. For JavaScript, run `npm install` to d
 
 ### Coding Exercises
 
-1. **Implement a Binary Tree:** Implement a binary tree class using nodes and references. Instances of `BinaryTree` should have the following methods available to them:
+1. **Implement a Binary Tree:** Implement a binary tree class using nodes and references. Instances should have the following methods available to them:
    - `get_root_val`
    - `set_root_val`
    - `insert_left`
