@@ -27,18 +27,6 @@ class BinaryTree{
   }
 }
 
-function preorder(node){
-
-}
-
-function postorder(node){
-
-}
-
-function inorder(node){
-
-}
-
 function isUnivalTree(node){
 
 }
@@ -52,5 +40,5 @@ function secondMinimumNode(node){
 }
 
 module.exports = {
-  BinaryTree, preorder, postorder, inorder, isUnivalTree, invert, secondMinimumNode
+  BinaryTree, isUnivalTree, invert, secondMinimumNode
 }
