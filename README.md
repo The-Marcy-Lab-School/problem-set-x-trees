@@ -3,9 +3,9 @@
 ## Directions
 Respond to short response questions in clear, concise sentences directly within this file. Use markdown to ensure that your answers are formatted correctly.
 
-Complete code challenges in `exercises.js` or `exercises.py`. 
+Complete code challenges in `exercises.js`. 
 
-Use Test Driven Development to guide you. For JavaScript, run `npm install` to download dependencies. Run `npm test` to run tests locally. For Python, run `pytest`. Ensure all tests are passing before submitting this problem set.
+Use Test Driven Development to guide you. For JavaScript, run `npm install` to download dependencies. Run `npm test` to run tests locally. Ensure all tests are passing before submitting this problem set.
 
 ### Short Response Questions
 
