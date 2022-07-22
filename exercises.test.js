@@ -1,5 +1,5 @@
 const { expect } = require('@jest/globals');
-const { BinaryTree, preorder, postorder, inorder, isUnivalTree, invert, secondMinimumNode } =  require('./exercises.js');
+const { BinaryTree, isUnivalTree, invert, secondMinimumNode } =  require('./exercises.js');
 
 describe('Binary Tree', () => {
     it('can get its value', () => {
@@ -41,51 +41,6 @@ describe('Binary Tree', () => {
       tree.insertRight(7);
       expect(tree.getRightChildValue()).toBe(7);
     })
-})
-
-// remove the .skip in order to log the order
-describe.skip('Preorder traversal', () => {
-  it("prints the correct output", () => {
-    let tree = new BinaryTree(4);
-    let left = tree.insertLeft(2);
-    left.insertLeft(1);
-    left.insertRight(3);
-    let right = tree.insertRight(7);
-    right.insertRight(9);
-    right.insertLeft(6);
-    console.log("Preorder function should print in order: 4, 2, 1, 3, 7, 6, 9")
-    preorder(tree);
-  })
-})
-
-// remove the .skip in order to log the order
-describe.skip('Postorder traversal', () => {
-  it("prints the correct output", () => {
-    let tree = new BinaryTree(4);
-    let left = tree.insertLeft(2);
-    left.insertLeft(1);
-    left.insertRight(3);
-    let right = tree.insertRight(7);
-    right.insertRight(9);
-    right.insertLeft(6);
-    console.log("Postorder function should print in order: 1, 3, 2, 6, 9, 7, 4")
-    postorder(tree);
-  })
-})
-
-// remove the .skip in order to log the order
-describe.skip('Inorder traversal', () => {
-  it("prints the correct output", () => {
-    let tree = new BinaryTree(4);
-    let left = tree.insertLeft(2);
-    left.insertLeft(1);
-    left.insertRight(3);
-    let right = tree.insertRight(7);
-    right.insertRight(9);
-    right.insertLeft(6);
-    console.log("Inorder function should print in order: 1, 2, 3, 4, 6, 7, 9")
-    inorder(tree);
-  })
 })
 
 describe('Univalued Binary Tree', () => {
