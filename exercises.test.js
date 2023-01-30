@@ -89,11 +89,20 @@ describe('Invert', () => {
 describe.skip('Second Minimum Node', () => {
   it("works for a valid example", () => {
     let tree = new BinaryTree(2);
-    tree.insertLeft(2);
+    let left = tree.insertLeft(2);
     let right = tree.insertRight(5);
     right.insertLeft(5);
     right.insertRight(7);
     expect(secondMinimumNode(tree)).toBe(5);
+      
+    let tree2 = new BinaryTree(2);
+    left = tree2.insertLeft(2);
+    right = tree2.insertRight(2);
+    left.insertLeft(2);
+    left.insertRight(3);
+    right.insertLeft(2);
+    right.insertRight(4);
+    expect(secondMinimumNode(tree2)).toBe(3);
   })
 
   it("works for an invalid example", () => {
