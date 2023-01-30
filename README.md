@@ -82,3 +82,15 @@ Use Test Driven Development to guide you. For JavaScript, run `npm install` to d
         ```
         Output: -1
         Explanation: The smallest value is 2, but there isn't any second smallest value.
+        
+        Example 3:
+        ```
+        Input:
+             2
+           /   \
+          2     2
+         / \   / \
+        2   3 2   4 
+        ```
+        Output: 3
+        Explanation: The smallest value is 2, the second smallst value is 3.
