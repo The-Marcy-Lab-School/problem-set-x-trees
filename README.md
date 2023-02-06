@@ -9,7 +9,7 @@ Use Test Driven Development to guide you. For JavaScript, run `npm install` to d
 
 ### Short Response Questions
 
-**1. What are the properties of a tree?**
+**1. What are the characteristics of a tree data structure?**
 
 **2. What is the definition of a tree data structure? Define it in two ways: (1) a description of edges, nodes, and paths, and (2) as a recursive data structure??**
 
