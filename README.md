@@ -18,14 +18,14 @@ Use Test Driven Development to guide you. For JavaScript, run `npm install` to d
 ### Coding Exercises
 
 1. **Implement a Binary Tree:** Implement a binary tree class using nodes and references. Instances should have the following methods available to them:
-   - `get_root_val`
-   - `set_root_val`
-   - `insert_left`
-   - `insert_right`
-   - `get_left_child_val`
-   - `get_right_child_val`
+   - `getRootValue`
+   - `setRootValue`
+   - `insertLeft`
+   - `insertRight`
+   - `getLeftChildValue`
+   - `getRightChildValue`
 
-2. **Univalued Binary Tree:** A binary tree is univalued if every node in the tree has the same value. Write a function `is_unival_tree`, that takes a Tree as a parameter and returns true if and only if the given tree is univalued.
+2. **Univalued Binary Tree:** A binary tree is univalued if every node in the tree has the same value. Write a function `isUnivalTree`, that takes a Tree as a parameter and returns true if and only if the given tree is univalued.
 
 3. **Invert a Binary Tree:** Invert a binary tree.
 
